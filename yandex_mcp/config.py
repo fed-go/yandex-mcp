@@ -10,4 +10,5 @@ YANDEX_METRIKA_API_URL = "https://api-metrika.yandex.net"
 DEFAULT_TIMEOUT = 30.0
 REPORT_TIMEOUT = 120.0
 
-YANDEX_WORDSTAT_API_URL = "https://api.wordstat.yandex.net"
+YANDEX_SEARCH_API_URL = "https://searchapi.api.cloud.yandex.net"
+YANDEX_WEBMASTER_API_URL = "https://api.webmaster.yandex.net/v4"
