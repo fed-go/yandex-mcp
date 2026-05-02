@@ -242,9 +242,9 @@ class TestImports:
         assert api_client is not None
 
     def test_import_config(self):
-        from yandex_mcp.config import YANDEX_DIRECT_API_URL, YANDEX_WORDSTAT_API_URL
+        from yandex_mcp.config import YANDEX_DIRECT_API_URL, YANDEX_SEARCH_API_URL
         assert "direct" in YANDEX_DIRECT_API_URL
-        assert "wordstat" in YANDEX_WORDSTAT_API_URL
+        assert "searchapi" in YANDEX_SEARCH_API_URL
 
     def test_import_models(self):
         from yandex_mcp.models.common import ResponseFormat
